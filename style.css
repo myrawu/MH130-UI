@@ -1,0 +1,33 @@
+/* Split the screen into two screens*/
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 10px;
+}
+
+/* Control the left side */
+.left {
+  left: 1;
+  background-color:#FEFBF3;
+ 
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color:#F8F0DF;
+}
+
+}
+.signup-content .radio{
+    margin:10px 10px;
+}
+.signup-content2 .input{
+    width:500px;
+    padding:10px;
+    margin:10px;
+}

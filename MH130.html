@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Norwegian Rails</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+    
+    <div class="split left">
+        <h1>Where would you like to go?</h1>
+        <p>Norwegian Rails Ticketing System</p>
+        <label class="text">Change language</label>
+            <select class="text">
+                <option>Norwegian</option>
+                <option>English</option>
+                <option>Chinese</option>
+                <option>Spanish</option>
+            </select>
+        <button id="Search journey">Get started</button>
+    <script>
+        var button=document.getElementById("Search journey");
+        
+        button.addEventListener("click",function() { 
+            alert("Ready to your journey!");
+        });
+    </script>
+    
+      
+    </div>
+    
+   
+    <div class="split right">
+        
+
+            <div class="signup-content2">
+                <input type="text" placeholder="Travel from" class="input">
+                <input type="text" placeholder="Travel to" class="input">
+                
+            <div class="signup-content">
+                <input type="radio" class="radio" name="r">
+                <label class="text">One Way</label>
+                <input type="radio" class="radio" name="r">
+                <label class="text">Round trip</label>
+            </div>
+
+            <label class="text" style="margin-left:15px;">Depart</label>
+            <input type="date" class="text">
+            <label class="text" style="margin-left:15px;">Return</label>
+            <input type="date" class="text"><br>
+                   
+
+            
+            <input type="number" class="person" placeholder="Adult">
+            <input type="number" class="person" placeholder="Child/Youth">
+            <input type="number" class="person" placeholder="Student">
+            <input type="number" class="person" placeholder="Senior">
+            <input type="number" class="person" placeholder="Milltary member">
+            <input type="number" class="person" 
+            placeholder="NR customer card"><br>
+
+            
+                
+            <label class="text">Select seat</label>
+            <select class="text">
+                <option>Normal seat</option>
+                <option>Premium seat</option>
+            </select>
+            <label class="text">Add-ons</label>
+            <select class="text">
+                <option>Pet</option>
+                <option>Bicycle</option>
+                <option>Pram space</option>
+                <option>Wheelchair</option>
+                <option>Preorder food</option>
+                <option>Reserve a sleeping cart</option>
+            </select>
+
+            <input type="Submit" value="Search" class="Submit">
+                                                
+        </div>
+        </div>
+    
+   
+
+
+            
+    
+</body>
+</html>
